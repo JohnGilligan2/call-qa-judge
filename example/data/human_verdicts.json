@@ -1,0 +1,75 @@
+{
+  "about": "A synthetic blind human pass over the example calls, written for this repo. 0-10 per criterion, or \"ungradable\" when the criterion cannot be judged on that call.",
+  "rubric_version": "call-qa-v1",
+  "blind": true,
+  "verdicts": [
+    {"call_id": "c01", "note": "", "scores": {
+      "professional_greeting": 9, "agent_identified_self": 9, "caller_name_used": 9,
+      "needs_discovery": 8, "empathy_tone": 9, "clear_options_offered": 8,
+      "objection_handling": 7, "commitment_or_booking_attempted": 8,
+      "accurate_information": 8, "call_control_pacing": 7,
+      "proper_close_next_steps": 8, "compliance_recording_disclosure": 10}},
+    {"call_id": "c02", "note": "used his name once, which is normal on a short call", "scores": {
+      "professional_greeting": 9, "agent_identified_self": 9, "caller_name_used": 7,
+      "needs_discovery": 6, "empathy_tone": 8, "clear_options_offered": 8,
+      "objection_handling": 8, "commitment_or_booking_attempted": 8,
+      "accurate_information": 8, "call_control_pacing": 7,
+      "proper_close_next_steps": 8, "compliance_recording_disclosure": 0}},
+    {"call_id": "c03", "note": "agent on hold with a supplier, nobody answered", "scores": {
+      "professional_greeting": "ungradable", "agent_identified_self": "ungradable",
+      "caller_name_used": "ungradable", "needs_discovery": "ungradable",
+      "empathy_tone": "ungradable", "clear_options_offered": "ungradable",
+      "objection_handling": "ungradable", "commitment_or_booking_attempted": "ungradable",
+      "accurate_information": "ungradable", "call_control_pacing": "ungradable",
+      "proper_close_next_steps": "ungradable", "compliance_recording_disclosure": "ungradable"}},
+    {"call_id": "c04", "note": "", "scores": {
+      "professional_greeting": 9, "agent_identified_self": 9, "caller_name_used": 7,
+      "needs_discovery": 6, "empathy_tone": 8, "clear_options_offered": 8,
+      "objection_handling": 9, "commitment_or_booking_attempted": 8,
+      "accurate_information": 7, "call_control_pacing": 8,
+      "proper_close_next_steps": 9, "compliance_recording_disclosure": 10}},
+    {"call_id": "c05", "note": "weak call, no greeting, no ask", "scores": {
+      "professional_greeting": 2, "agent_identified_self": 1, "caller_name_used": 1,
+      "needs_discovery": 2, "empathy_tone": 3, "clear_options_offered": 3,
+      "objection_handling": 5, "commitment_or_booking_attempted": 2,
+      "accurate_information": 4, "call_control_pacing": 6,
+      "proper_close_next_steps": 2, "compliance_recording_disclosure": 0}},
+    {"call_id": "c06", "note": "the recording message was the property manager's phone system, not ours", "scores": {
+      "professional_greeting": 9, "agent_identified_self": 9, "caller_name_used": 7,
+      "needs_discovery": 6, "empathy_tone": 6, "clear_options_offered": 7,
+      "objection_handling": 7, "commitment_or_booking_attempted": 8,
+      "accurate_information": 7, "call_control_pacing": 7,
+      "proper_close_next_steps": 8, "compliance_recording_disclosure": 0}},
+    {"call_id": "c07", "note": "", "scores": {
+      "professional_greeting": 9, "agent_identified_self": 9, "caller_name_used": 5,
+      "needs_discovery": 6, "empathy_tone": 8, "clear_options_offered": 6,
+      "objection_handling": 7, "commitment_or_booking_attempted": 8,
+      "accurate_information": 7, "call_control_pacing": 7,
+      "proper_close_next_steps": 8, "compliance_recording_disclosure": 10}},
+    {"call_id": "c08", "note": "voicemail, one-sided", "scores": {
+      "professional_greeting": "ungradable", "agent_identified_self": "ungradable",
+      "caller_name_used": "ungradable", "needs_discovery": "ungradable",
+      "empathy_tone": "ungradable", "clear_options_offered": "ungradable",
+      "objection_handling": "ungradable", "commitment_or_booking_attempted": "ungradable",
+      "accurate_information": "ungradable", "call_control_pacing": "ungradable",
+      "proper_close_next_steps": "ungradable", "compliance_recording_disclosure": "ungradable"}},
+    {"call_id": "c09", "note": "", "scores": {
+      "professional_greeting": 9, "agent_identified_self": 9, "caller_name_used": 9,
+      "needs_discovery": 6, "empathy_tone": 9, "clear_options_offered": 8,
+      "objection_handling": 6, "commitment_or_booking_attempted": 8,
+      "accurate_information": 8, "call_control_pacing": 7,
+      "proper_close_next_steps": 8, "compliance_recording_disclosure": 10}},
+    {"call_id": "c10", "note": "bakery's own recording message played before Pete picked up", "scores": {
+      "professional_greeting": 9, "agent_identified_self": 9, "caller_name_used": 7,
+      "needs_discovery": 6, "empathy_tone": 4, "clear_options_offered": 8,
+      "objection_handling": 6, "commitment_or_booking_attempted": 8,
+      "accurate_information": 7, "call_control_pacing": 7,
+      "proper_close_next_steps": 8, "compliance_recording_disclosure": 0}},
+    {"call_id": "c11", "note": "the clinic's message, not ours", "scores": {
+      "professional_greeting": 9, "agent_identified_self": 9, "caller_name_used": 8,
+      "needs_discovery": 6, "empathy_tone": 7, "clear_options_offered": 6,
+      "objection_handling": 8, "commitment_or_booking_attempted": 8,
+      "accurate_information": 7, "call_control_pacing": 7,
+      "proper_close_next_steps": 8, "compliance_recording_disclosure": 0}}
+  ]
+}

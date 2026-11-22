@@ -1,0 +1,78 @@
+{
+  "version": "call-qa-v1",
+  "note": "Edit the guidance text and weights here. Weights are relative (0 to 10) and are renormalized over whatever is listed, so they do not need to add up to anything. Any change to wording or weights changes what a score means: bump the version so old and new scores are never averaged together.",
+  "criteria": [
+    {
+      "key": "professional_greeting",
+      "label": "Professional greeting",
+      "weight": 0.6,
+      "guidance": "Did the agent open with a clear, courteous greeting that names the company? Score 0 if the call opens abruptly or the caller has to ask who they have reached."
+    },
+    {
+      "key": "agent_identified_self",
+      "label": "Identified self",
+      "weight": 0.5,
+      "guidance": "Did the agent give their own name, unprompted, early in the call?"
+    },
+    {
+      "key": "caller_name_used",
+      "label": "Used caller's name",
+      "weight": 0.5,
+      "guidance": "Did the agent learn and then actually use the other party's name during the conversation? Score low if the name was given and never used again."
+    },
+    {
+      "key": "needs_discovery",
+      "label": "Needs discovery",
+      "weight": 1.3,
+      "guidance": "Did the agent ask open questions to understand what the customer actually needs (scope, timing, constraints, budget) before pitching or quoting? Reciting a script without listening scores low even if every field got filled in."
+    },
+    {
+      "key": "empathy_tone",
+      "label": "Empathy and tone",
+      "weight": 1.0,
+      "guidance": "Warmth, patience, acknowledgement of the customer's situation, and absence of impatience or talking over them."
+    },
+    {
+      "key": "clear_options_offered",
+      "label": "Clear options offered",
+      "weight": 1.0,
+      "guidance": "Were choices, pricing, or next steps laid out in plain language the customer could act on, without jargon or hedging?"
+    },
+    {
+      "key": "objection_handling",
+      "label": "Objection handling",
+      "weight": 0.8,
+      "guidance": "When the customer pushed back (price, timing, competitor, hesitation), did the agent address the objection directly instead of repeating the pitch or conceding immediately? If no objection was raised, score how the agent handled uncertainty."
+    },
+    {
+      "key": "commitment_or_booking_attempted",
+      "label": "Asked for the commitment",
+      "weight": 1.3,
+      "guidance": "Did the agent actually ask for the business: a booking, a deposit, a scheduled follow-up, a signature? A call that ends with 'let us know' has not asked."
+    },
+    {
+      "key": "accurate_information",
+      "label": "Accurate information",
+      "weight": 1.0,
+      "guidance": "Was what the agent said internally consistent, specific, and free of obvious guesswork or contradictions? Judge only from the transcript; do not assume outside facts."
+    },
+    {
+      "key": "call_control_pacing",
+      "label": "Call control and pacing",
+      "weight": 0.7,
+      "guidance": "Did the agent keep the call moving toward an outcome (no long dead air, no rambling, no losing the thread) while still letting the customer speak?"
+    },
+    {
+      "key": "proper_close_next_steps",
+      "label": "Close and next steps",
+      "weight": 0.8,
+      "guidance": "Did the call end with an explicit, mutually understood next step (who does what, by when) and a courteous close?"
+    },
+    {
+      "key": "compliance_recording_disclosure",
+      "label": "Recording disclosure",
+      "weight": 0.5,
+      "guidance": "Did anyone state that the call is recorded or monitored? Score 10 if clearly disclosed, 0 if never mentioned. This is a factual observation, not a judgment of the agent."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+ "about": "Synthetic call ledger for the example. Numbers are in the 555-0100 to 555-0199 fiction range.",
+ "calls": [
+  {
+   "call_id": "c01",
+   "started_at": 1772467200,
+   "direction": "inbound",
+   "from": "2065550111",
+   "to": "+12065550100"
+  },
+  {
+   "call_id": "c02",
+   "started_at": 1772478000,
+   "direction": "outbound",
+   "from": "+12065550102",
+   "to": "+12065550112"
+  },
+  {
+   "call_id": "f01",
+   "started_at": 1772546400,
+   "direction": "outbound",
+   "from": "+12065550101",
+   "to": "+12065550111"
+  },
+  {
+   "call_id": "c03",
+   "started_at": 1772553600,
+   "direction": "outbound",
+   "from": "+12065550104",
+   "to": "+12065550190"
+  },
+  {
+   "call_id": "x01",
+   "started_at": 1772554200,
+   "direction": "outbound",
+   "from": "+12065550101",
+   "to": "+12065550141"
+  },
+  {
+   "call_id": "x06",
+   "started_at": 1772557200,
+   "direction": "outbound",
+   "from": "+12065550102",
+   "to": "+12065550146"
+  },
+  {
+   "call_id": "x11",
+   "started_at": 1772560200,
+   "direction": "outbound",
+   "from": "+12065550103",
+   "to": "+12065550151"
+  },
+  {
+   "call_id": "c04",
+   "started_at": 1772560800,
+   "direction": "inbound",
+   "from": "2065550114",
+   "to": "+12065550100"
+  },
+  {
+   "call_id": "x16",
+   "started_at": 1772563200,
+   "direction": "outbound",
+   "from": "+12065550104",
+   "to": "+12065550156"
+  },
+  {
+   "call_id": "c05",
+   "started_at": 1772640000,
+   "direction": "inbound",
+   "from": "2065550115",
+   "to": "+12065550100"
+  },
+  {
+   "call_id": "x02",
+   "started_at": 1772641200,
+   "direction": "outbound",
+   "from": "+12065550101",
+   "to": "+12065550142"
+  },
+  {
+   "call_id": "x07",
+   "started_at": 1772644200,
+   "direction": "outbound",
+   "from": "+12065550102",
+   "to": "+12065550147"
+  },
+  {
+   "call_id": "x12",
+   "started_at": 1772647200,
+   "direction": "outbound",
+   "from": "+12065550103",
+   "to": "+12065550152"
+  },
+  {
+   "call_id": "x17",
+   "started_at": 1772650200,
+   "direction": "outbound",
+   "from": "+12065550104",
+   "to": "+12065550157"
+  },
+  {
+   "call_id": "c06",
+   "started_at": 1772654400,
+   "direction": "outbound",
+   "from": "+12065550101",
+   "to": "+12065550116"
+  },
+  {
+   "call_id": "f02",
+   "started_at": 1772658000,
+   "direction": "inbound",
+   "from": "2065550112",
+   "to": "+12065550100"
+  },
+  {
+   "call_id": "c07",
+   "started_at": 1772726400,
+   "direction": "inbound",
+   "from": "2065550117",
+   "to": "+12065550100"
+  },
+  {
+   "call_id": "x03",
+   "started_at": 1772728200,
+   "direction": "outbound",
+   "from": "+12065550101",
+   "to": "+12065550143"
+  },
+  {
+   "call_id": "x08",
+   "started_at": 1772731200,
+   "direction": "outbound",
+   "from": "+12065550102",
+   "to": "+12065550148"
+  },
+  {
+   "call_id": "x13",
+   "started_at": 1772734200,
+   "direction": "outbound",
+   "from": "+12065550103",
+   "to": "+12065550153"
+  },
+  {
+   "call_id": "c08",
+   "started_at": 1772737200,
+   "direction": "outbound",
+   "from": "+12065550103",
+   "to": "+12065550118"
+  },
+  {
+   "call_id": "x18",
+   "started_at": 1772737200,
+   "direction": "outbound",
+   "from": "+12065550104",
+   "to": "+12065550158"
+  },
+  {
+   "call_id": "f07",
+   "started_at": 1772769600,
+   "direction": "inbound",
+   "from": "2065550117",
+   "to": "+12065550100"
+  },
+  {
+   "call_id": "c10",
+   "started_at": 1772812800,
+   "direction": "outbound",
+   "from": "+12065550102",
+   "to": "+12065550120"
+  },
+  {
+   "call_id": "x04",
+   "started_at": 1772815200,
+   "direction": "outbound",
+   "from": "+12065550101",
+   "to": "+12065550144"
+  },
+  {
+   "call_id": "x09",
+   "started_at": 1772818200,
+   "direction": "outbound",
+   "from": "+12065550102",
+   "to": "+12065550149"
+  },
+  {
+   "call_id": "c11",
+   "started_at": 1772820000,
+   "direction": "outbound",
+   "from": "+12065550104",
+   "to": "+12065550121"
+  },
+  {
+   "call_id": "x14",
+   "started_at": 1772821200,
+   "direction": "outbound",
+   "from": "+12065550103",
+   "to": "+12065550154"
+  },
+  {
+   "call_id": "x19",
+   "started_at": 1772824200,
+   "direction": "outbound",
+   "from": "+12065550104",
+   "to": "+12065550159"
+  },
+  {
+   "call_id": "x05",
+   "started_at": 1772902200,
+   "direction": "outbound",
+   "from": "+12065550101",
+   "to": "+12065550145"
+  },
+  {
+   "call_id": "f11",
+   "started_at": 1772902800,
+   "direction": "outbound",
+   "from": "+12065550104",
+   "to": "+12065550121"
+  },
+  {
+   "call_id": "x10",
+   "started_at": 1772905200,
+   "direction": "outbound",
+   "from": "+12065550102",
+   "to": "+12065550150"
+  },
+  {
+   "call_id": "x15",
+   "started_at": 1772908200,
+   "direction": "outbound",
+   "from": "+12065550103",
+   "to": "+12065550155"
+  },
+  {
+   "call_id": "x20",
+   "started_at": 1772911200,
+   "direction": "outbound",
+   "from": "+12065550104",
+   "to": "+12065550160"
+  },
+  {
+   "call_id": "f10",
+   "started_at": 1773061200,
+   "direction": "outbound",
+   "from": "+12065550102",
+   "to": "+12065550120"
+  },
+  {
+   "call_id": "c09",
+   "started_at": 1773296640,
+   "direction": "inbound",
+   "from": "2065550119",
+   "to": "+12065550100"
+  },
+  {
+   "call_id": "x99",
+   "started_at": 1773331200,
+   "direction": "inbound",
+   "from": "2065550189",
+   "to": "+12065550100"
+  }
+ ]
+}

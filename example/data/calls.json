@@ -1,0 +1,158 @@
+{
+  "about": "Synthetic calls for a made-up company, Bayside Garage Doors. Every name, number and line was written for this example. Phone numbers use the 555-0100 to 555-0199 range reserved for fiction.",
+  "org_names": ["Bayside Garage Doors", "Bayside Doors"],
+  "calls": [
+    {
+      "call_id": "c01", "direction": "inbound", "agent": "Dana", "started_at": 1772467200,
+      "turns": [
+        {"speaker": "system", "text": "Thanks for calling Bayside Garage Doors. This call may be recorded for quality and training."},
+        {"speaker": "agent", "text": "Hi, thanks for calling Bayside Garage Doors, this is Dana. How can I help?"},
+        {"speaker": "caller", "text": "Hi Dana, this is Erin. My garage door stopped halfway and now it won't close."},
+        {"speaker": "agent", "text": "Sorry to hear that, Erin. What happens when you press the wall button? Does the motor run at all?"},
+        {"speaker": "caller", "text": "It hums but the door doesn't move. I think a spring might be broken."},
+        {"speaker": "agent", "text": "That does sound like a spring. When did it start, and is the door stuck open right now?"},
+        {"speaker": "caller", "text": "This morning. It's stuck about two feet open."},
+        {"speaker": "agent", "text": "Okay. We have two options: a tech can come tomorrow between 8 and 10 for a $95 service call, or this afternoon after 4 for $140. Which works better?"},
+        {"speaker": "caller", "text": "Tomorrow morning is fine."},
+        {"speaker": "agent", "text": "Great, let me book that for you. You're all set for tomorrow between 8 and 10, Erin. You'll get a confirmation text shortly."},
+        {"speaker": "caller", "text": "Perfect, thanks."},
+        {"speaker": "agent", "text": "Thank you, see you tomorrow."}
+      ]
+    },
+    {
+      "call_id": "c02", "direction": "outbound", "agent": "Luis", "started_at": 1772478000,
+      "turns": [
+        {"speaker": "agent", "text": "Hi, this is Luis from Bayside Garage Doors, calling about the quote for a new door."},
+        {"speaker": "caller", "text": "Oh right, this is Tom. I was going to call you."},
+        {"speaker": "agent", "text": "Great to catch you, Tom. Which of the two door styles did you like better?"},
+        {"speaker": "caller", "text": "The insulated one, but honestly it's more than I wanted to spend. The other company was cheaper."},
+        {"speaker": "agent", "text": "I understand. The insulated door includes a ten-year warranty on the panels and the install, which is usually what makes up the difference."},
+        {"speaker": "caller", "text": "Let me talk to my wife about it."},
+        {"speaker": "agent", "text": "Of course. Would it help if I call you back Thursday afternoon to go over it together? I can lock in the current price until then."},
+        {"speaker": "caller", "text": "Yeah, Thursday works."},
+        {"speaker": "agent", "text": "Perfect. I'll call you Thursday between 2 and 3. Thanks for your time."}
+      ]
+    },
+    {
+      "call_id": "c03", "direction": "outbound", "agent": "Marcus", "started_at": 1772553600,
+      "turns": [
+        {"speaker": "system", "text": "Thank you for calling Northpoint Supply. This call may be recorded for quality assurance."},
+        {"speaker": "system", "text": "For orders, press 1. For account questions, press 2."},
+        {"speaker": "system", "text": "Please hold. Your estimated wait time is less than 15 minutes."},
+        {"speaker": "system", "text": "Thank you for waiting. Your call is important to us. Please continue to hold."},
+        {"speaker": "agent", "text": "Still on hold with the supplier."}
+      ]
+    },
+    {
+      "call_id": "c04", "direction": "inbound", "agent": "Priya", "started_at": 1772560800,
+      "turns": [
+        {"speaker": "system", "text": "Thanks for calling Bayside Garage Doors. Calls are recorded for quality and training."},
+        {"speaker": "agent", "text": "Good morning, Bayside Garage Doors, my name is Priya."},
+        {"speaker": "caller", "text": "Hi, my name is Grace. I got a quote for a new opener and it seems too much for what it is."},
+        {"speaker": "agent", "text": "Thanks for calling back, Grace. What did the quote include, and what were you hoping to spend?"},
+        {"speaker": "caller", "text": "It was $480 installed. I saw openers online for half that."},
+        {"speaker": "agent", "text": "That's fair. The price includes the install, hauling the old unit away and a five-year warranty, which is what the online price leaves out."},
+        {"speaker": "caller", "text": "Okay, that makes more sense."},
+        {"speaker": "agent", "text": "Want me to schedule it? I have Friday at 1 or Monday at 9."},
+        {"speaker": "caller", "text": "Friday at 1."},
+        {"speaker": "agent", "text": "Done. You're all set for Friday at 1, and you'll get a confirmation text today."},
+        {"speaker": "caller", "text": "Thanks."},
+        {"speaker": "agent", "text": "Thank you, have a good day."}
+      ]
+    },
+    {
+      "call_id": "c05", "direction": "inbound", "agent": "Luis", "started_at": 1772640000,
+      "turns": [
+        {"speaker": "agent", "text": "Yeah, hello?"},
+        {"speaker": "caller", "text": "Hi, this is Sam. Do you guys fix sensors? My door reverses every time it closes."},
+        {"speaker": "agent", "text": "Yeah we do that."},
+        {"speaker": "caller", "text": "How much is it usually?"},
+        {"speaker": "agent", "text": "Depends. Could be a lot of things."},
+        {"speaker": "caller", "text": "Okay. Should I book something?"},
+        {"speaker": "agent", "text": "You can just let us know when you want someone out."},
+        {"speaker": "caller", "text": "Alright, bye."}
+      ]
+    },
+    {
+      "call_id": "c06", "direction": "outbound", "agent": "Dana", "started_at": 1772654400,
+      "turns": [
+        {"speaker": "system", "text": "You've reached Lakeview Property Management. This call may be monitored or recorded for quality purposes. Please hold while we connect you."},
+        {"speaker": "caller", "text": "Lakeview, this is Ken."},
+        {"speaker": "agent", "text": "Hi Ken, this is Dana from Bayside Garage Doors. I'm calling about the three units at your Elm Street building."},
+        {"speaker": "caller", "text": "Right, two of the doors are sticking and one opener is dead."},
+        {"speaker": "agent", "text": "Got it. When are tenants usually home, and do you want all three done in one visit?"},
+        {"speaker": "caller", "text": "One visit if we can. I need to check with the owner on budget first."},
+        {"speaker": "agent", "text": "Understood. I'll send a quote today, and I'll follow up Monday morning once you've had a chance to look."},
+        {"speaker": "caller", "text": "That works."},
+        {"speaker": "agent", "text": "Thanks, talk Monday."}
+      ]
+    },
+    {
+      "call_id": "c07", "direction": "inbound", "agent": "Marcus", "started_at": 1772726400,
+      "turns": [
+        {"speaker": "system", "text": "Thanks for calling Bayside Garage Doors. This call may be recorded for training."},
+        {"speaker": "agent", "text": "Hello, thank you for calling Bayside Garage Doors, this is Marcus."},
+        {"speaker": "caller", "text": "Hi Marcus, it's Alma. The light on the keypad monitor is off and the code doesn't work anymore."},
+        {"speaker": "agent", "text": "Okay, Alma. Have you changed the battery in the keypad recently?"},
+        {"speaker": "caller", "text": "No, I didn't know it had one."},
+        {"speaker": "agent", "text": "Most do, a nine volt behind the cover. If that doesn't fix it we can send someone. What day would work if you need us?"},
+        {"speaker": "caller", "text": "Thursday, if it comes to that."},
+        {"speaker": "agent", "text": "I'll put you down for Thursday at 10 as a hold, and you can cancel by text if the battery fixes it."},
+        {"speaker": "caller", "text": "Great, thank you."},
+        {"speaker": "agent", "text": "You're all set. Thanks for calling."}
+      ]
+    },
+    {
+      "call_id": "c08", "direction": "outbound", "agent": "Priya", "started_at": 1772737200,
+      "turns": [
+        {"speaker": "system", "text": "The person you are calling is not available. Please record your message at the tone."},
+        {"speaker": "agent", "text": "Hi, this is Priya from Bayside Garage Doors returning your call about the opener. Call us back at 206-555-0100 when you get a chance."}
+      ]
+    },
+    {
+      "call_id": "c09", "direction": "inbound", "agent": "Dana", "started_at": 1773296640,
+      "turns": [
+        {"speaker": "system", "text": "Thanks for calling Bayside Garage Doors. This call may be recorded for quality and training."},
+        {"speaker": "agent", "text": "Hi, Bayside Garage Doors, this is Dana."},
+        {"speaker": "caller", "text": "Hi, my name is Nina. A cable snapped on my door and it's hanging crooked."},
+        {"speaker": "agent", "text": "Oh no, sorry Nina. Is anyone or any car under it right now? Please keep clear of it."},
+        {"speaker": "caller", "text": "No, everyone is out of the garage."},
+        {"speaker": "agent", "text": "Good. What size is the door, single or double?"},
+        {"speaker": "caller", "text": "Double."},
+        {"speaker": "agent", "text": "Okay. It's $160 for a cable repair on a double door, parts included. I can book a tech for 3 today. Does that work?"},
+        {"speaker": "caller", "text": "Yes please."},
+        {"speaker": "agent", "text": "You're all set for 3 today, Nina. The tech will text you twenty minutes out."},
+        {"speaker": "caller", "text": "Thank you so much."},
+        {"speaker": "agent", "text": "Happy to help. See you this afternoon."}
+      ]
+    },
+    {
+      "call_id": "c10", "direction": "outbound", "agent": "Luis", "started_at": 1772812800,
+      "turns": [
+        {"speaker": "system", "text": "Thank you for calling Cedar Street Bakery. Calls may be recorded for quality and training."},
+        {"speaker": "caller", "text": "Cedar Street, this is Pete."},
+        {"speaker": "agent", "text": "Hi Pete, this is Luis from Bayside Garage Doors. You asked about a roll-up door for the loading bay?"},
+        {"speaker": "caller", "text": "Yes. The old one is rusted through. How fast can you replace it?"},
+        {"speaker": "agent", "text": "What are the opening dimensions, and does it need to be insulated?"},
+        {"speaker": "caller", "text": "Ten by ten, no insulation needed."},
+        {"speaker": "agent", "text": "Then it's $2,400 installed, and we can do it next Wednesday. Want me to reserve that slot with a $200 deposit?"},
+        {"speaker": "caller", "text": "Yes, let's do it."},
+        {"speaker": "agent", "text": "Booked. Confirmation number is in your email, and I'll call the day before to confirm the time."}
+      ]
+    },
+    {
+      "call_id": "c11", "direction": "outbound", "agent": "Marcus", "started_at": 1772820000,
+      "turns": [
+        {"speaker": "system", "text": "Welcome to Harbor Animal Clinic. For quality assurance this call may be recorded."},
+        {"speaker": "caller", "text": "Harbor Clinic, this is Joan."},
+        {"speaker": "agent", "text": "Hi Joan, this is Marcus from Bayside Garage Doors, following up on the door you said was noisy."},
+        {"speaker": "caller", "text": "Yes, it grinds every time it opens. I'm not sure it's worth fixing."},
+        {"speaker": "agent", "text": "Grinding is usually rollers, which is a small job. What's the door's age, roughly?"},
+        {"speaker": "caller", "text": "Maybe twelve years."},
+        {"speaker": "agent", "text": "Then rollers are worth it before anything bigger. I'll check the schedule and call you back tomorrow with a time."},
+        {"speaker": "caller", "text": "Sounds good."},
+        {"speaker": "agent", "text": "Thanks, talk tomorrow."}
+      ]
+    }
+  ]
+}

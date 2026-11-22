@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Real calls, real human verdicts and real ledgers stay local. A transcript
+# is a customer conversation, and deleting a committed one does not unpublish it.
+/data/
+/out/
+/golden/
+*.local.*
+.env
